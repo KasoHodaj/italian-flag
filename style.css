@@ -1,0 +1,27 @@
+
+        .flag{
+            width:800px;
+            position: relative;
+            border:solid black;
+        }
+        .italy-flag{
+            width: 100%;
+            position: relative;
+            height: 500px;
+        }
+        .italy-flag::before{
+            content: ' ';
+            width: 33.3%;
+            height: 100%;
+            background-color: #009246;
+            position: absolute;
+        }
+      
+        .italy-flag::after{
+            content: ' ';
+            width: 33.3%;
+            height: 100%;
+            background-color: rgb(196, 33, 33);
+            position:absolute;
+            right:0;
+        }
